@@ -1,0 +1,159 @@
+.app-dialog.dialog-classic-dark {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #444444;
+}
+
+.app-dialog.dialog-visual-studio {
+    -fx-background-color: #252526;
+    -fx-border-color: #3f3f46;
+}
+
+.app-dialog.dialog-light {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+}
+
+.app-dialog .header-panel,
+.app-dialog .content {
+    -fx-background-color: transparent;
+}
+
+.app-dialog .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.app-dialog.dialog-visual-studio .label {
+    -fx-text-fill: #d4d4d4;
+}
+
+.app-dialog.dialog-light .label {
+    -fx-text-fill: #1f2937;
+}
+
+.app-dialog .text-field,
+.app-dialog .text-area,
+.app-dialog .combo-box,
+.app-dialog .date-picker,
+.app-dialog .choice-box {
+    -fx-control-inner-background: #2a2a2a;
+    -fx-background-color: #2a2a2a;
+    -fx-text-fill: #eeeeee;
+    -fx-prompt-text-fill: #999999;
+    -fx-border-color: #555555;
+}
+
+.app-dialog.dialog-visual-studio .text-field,
+.app-dialog.dialog-visual-studio .text-area,
+.app-dialog.dialog-visual-studio .combo-box,
+.app-dialog.dialog-visual-studio .date-picker,
+.app-dialog.dialog-visual-studio .choice-box {
+    -fx-control-inner-background: #1e1e1e;
+    -fx-background-color: #333337;
+    -fx-text-fill: #d4d4d4;
+    -fx-prompt-text-fill: #858585;
+    -fx-border-color: #505055;
+}
+
+.app-dialog.dialog-light .text-field,
+.app-dialog.dialog-light .text-area,
+.app-dialog.dialog-light .combo-box,
+.app-dialog.dialog-light .date-picker,
+.app-dialog.dialog-light .choice-box {
+    -fx-control-inner-background: #ffffff;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2937;
+    -fx-prompt-text-fill: #64748b;
+    -fx-border-color: #cbd5e1;
+}
+
+.app-dialog .button {
+    -fx-background-color: #333333;
+    -fx-text-fill: #eeeeee;
+    -fx-border-color: #555555;
+}
+
+.app-dialog.dialog-visual-studio .button {
+    -fx-background-color: #3e3e42;
+    -fx-text-fill: #f1f1f1;
+    -fx-border-color: #505055;
+}
+
+.app-dialog.dialog-light .button {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #1f2937;
+    -fx-border-color: #cbd5e1;
+}
+
+.app-dialog .list-view,
+.app-dialog .list-cell {
+    -fx-background-color: #242424;
+    -fx-text-fill: #eeeeee;
+}
+
+.app-dialog.dialog-visual-studio .list-view,
+.app-dialog.dialog-visual-studio .list-cell {
+    -fx-background-color: #252526;
+    -fx-text-fill: #d4d4d4;
+}
+
+.app-dialog.dialog-light .list-view,
+.app-dialog.dialog-light .list-cell {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2937;
+}
+
+.app-dialog .check-box,
+.app-dialog .radio-button {
+    -fx-text-fill: #e0e0e0;
+}
+
+.app-dialog .scroll-pane,
+.app-dialog .scroll-pane > .viewport,
+.app-dialog .list-view .virtual-flow,
+.app-dialog .separator .line {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #444444;
+}
+
+.app-dialog .combo-box .list-cell,
+.app-dialog .choice-box .label {
+    -fx-text-fill: #eeeeee;
+}
+
+.app-dialog.dialog-light .check-box,
+.app-dialog.dialog-light .radio-button {
+    -fx-text-fill: #1f2937;
+}
+
+.app-dialog.dialog-light .scroll-pane,
+.app-dialog.dialog-light .scroll-pane > .viewport,
+.app-dialog.dialog-light .list-view .virtual-flow,
+.app-dialog.dialog-light .separator .line {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+}
+
+.app-dialog.dialog-light .combo-box .list-cell,
+.app-dialog.dialog-light .choice-box .label {
+    -fx-text-fill: #1f2937;
+}
+
+.combo-box-popup .list-view,
+.choice-box-popup .list-view,
+.context-menu {
+    -fx-background-color: #242424;
+    -fx-border-color: #555555;
+}
+
+.combo-box-popup .list-cell,
+.choice-box-popup .list-cell,
+.context-menu .label {
+    -fx-background-color: #242424;
+    -fx-text-fill: #eeeeee;
+}
+
+.combo-box-popup .list-cell:hover,
+.choice-box-popup .list-cell:hover,
+.context-menu .menu-item:focused {
+    -fx-background-color: #3a3a3a;
+}

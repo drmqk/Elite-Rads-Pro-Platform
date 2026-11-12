@@ -1,0 +1,76 @@
+/* Dark theme for WebView browsers */
+html, body {
+    -fx-background-color: #1a1a1a;
+    background-color: #1a1a1a;
+}
+
+/* Force dark background for all elements */
+* {
+    -fx-background-color: #1a1a1a;
+    background-color: #1a1a1a;
+}
+
+/* Text colors */
+body, p, div, span, td, th, li, a {
+    color: #e0e0e0 !important;
+}
+
+/* Links */
+a {
+    color: #4a9eff !important;
+}
+
+a:hover {
+    color: #6ab0ff !important;
+}
+
+/* Form elements */
+input, textarea, select, button {
+    -fx-background-color: #2a2a2a;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #444;
+}
+
+/* Tables */
+table {
+    -fx-background-color: #2a2a2a;
+}
+
+tr {
+    -fx-background-color: #2a2a2a;
+}
+
+td, th {
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #444;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* Code blocks */
+pre, code {
+    -fx-background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
